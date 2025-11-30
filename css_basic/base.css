@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+article > aside {
+    margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+}
