@@ -1,0 +1,67 @@
+/* 1. BODY is a flex container (column) */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* full height */
+    margin: 0;
+}
+
+/* 2. MAIN is a flex container (row) */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* automatically grow to fill space */
+}
+
+/* 3. ARTICLE takes 2/3 */
+article {
+    flex: 2; /* two parts */
+    overflow-y: auto; /* scroll vertically */
+    padding: 10px;
+}
+
+/* 4. ASIDE takes 1/3 */
+aside {
+    flex: 1; /* one part */
+    overflow-y: auto; /* scroll vertically */
+    padding: 10px;
+}
+
+/* Header background and spacing */
+header {
+    background-color: #0a0a23;
+    color: white;
+    padding: 15px;
+}
+
+/* Links inside the header */
+header a {
+    color: #ffdd57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Change link hover */
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Article styling – you are allowed full freedom here */
+article {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+/* Aside styling */
+aside {
+    background: #f3f3f3;
+    padding: 20px;
+    border-left: 3px solid #ccc;
+}
+
+/* Page background */
+body {
+    background: #f0f2f5;
+}
